@@ -20,4 +20,4 @@ with col1:
             progress_text = "Done🥰"
         my_bar.progress(percent_complete + 1, text=progress_text)
 with col2:
-    st.write("this is second col")
+    st.write("")
