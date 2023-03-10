@@ -12,6 +12,6 @@ for percent_complete in range(100):
     time.sleep(0.1)
     if percent_complete == 50:
         progress_text = "Almost there"
-    if percent_complete == 100:
+    if percent_complete == 99:
         progress_text = "Done!"
     my_bar.progress(percent_complete + 1, text=progress_text)
